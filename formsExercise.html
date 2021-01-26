@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Survey</title>
+    <h1>Customer Experience Survey</h1>
+
+</head>
+
+<body>
+<label for="storeNumber">Store Number
+    <select id="storeNumber">
+        <option>3109</option>
+        <option>2421</option>
+        <option>5357</option>
+    </select>
+</label>
+    <form>
+        <fieldset>
+            <legend>When you visited:</legend>
+            <label for="dateVisited">Date visited:</label>
+            <input type="date" >
+            <label for="timeVisited">Time visited:</label>
+            <input type="time">
+        </fieldset>
+        <label for="firstName">First Name: </label>
+        <input type="text" placeholder="John">
+        <label for="lastName" >Last Name:</label>
+        <input type="text" placeholder="Doe">
+        <br>
+        <label for="userEmail">Email:</label>
+        <input type="email" placeholder="your email">
+        <br>
+    <label for="male">Male</label>
+        <input type="radio" id="male" name="radioLink">
+    <label for="female">Female</label>
+        <input type="radio" id="female" name="radioLink">
+    <label for="other">Other</label>
+        <input type="radio" id="Other" name="radioLink">
+<br>
+<label for="tellUs">Tell us about your experience:</label>
+<br>
+<textarea id="tellUS" cols="20" rows="5"></textarea>
+<br>
+<label for="timesVisited">Times visited in the last month:</label> <input type="text">
+<br>
+<label for="checkboxExperience">Please check the box if you would be willing to tell us about your experience</label>
+<input type="checkbox"  id="checkboxExperience" value="1-30">
+
+<br>
+<label for="resetButton"></label>
+<input type="button" value="Reset">
+<label for="submitButton"></label>
+<input type="button" value="Submit">
+    </form>
+</body>
+</html>
